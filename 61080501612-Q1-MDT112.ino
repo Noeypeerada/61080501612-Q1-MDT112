@@ -66,11 +66,11 @@ void loop()
 
         }
 
-        digitalWrite(bright,1); 
+        digitalWrite(bright,1); // เปิด
 
         delay(time);
 
-        digitalWrite(bright,0); 
+        digitalWrite(bright,0); // ปิด
 
         if ( digitalRead(2) == 0 ){
 
@@ -100,7 +100,7 @@ void loop()
         if(bright == 8)
         {
 
-            digitalWrite(bright,0); // เปิดปิด L8
+            digitalWrite(bright,0); 
 
             continue;
 
